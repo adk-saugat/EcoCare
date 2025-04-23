@@ -1,0 +1,33 @@
+import BgHome from "../assets/bghome.jpg"
+const Home = () => {
+  return (
+    <div className="flex mt-10 mb-24">
+      <div className="w-[50%] pl-10 flex justify-end flex-col">
+        <div>
+          <h1 className="text-7xl font-semibold text-darkgreen">
+            Cleaner Communities Start With You!
+          </h1>
+          <p className="mt-4 text-gray-600">
+            EcoCare connects communities through local cleanups and eco
+            challenges. Take action, learn sustainable habits, and make your
+            neighborhood cleaner - one step at a time.
+          </p>
+        </div>
+
+        <div className="mt-10 ml-10 flex gap-8">
+          <button className="bg-darkgreen text-white py-3 rounded-2xl px-5 font-semibold shadow-lg hover:scale-105 duration-100 cursor-pointer">
+            Join Cleanup
+          </button>
+          <button className="bg-lightgreen text-white py-3 rounded-2xl px-5 font-semibold shadow-lg hover:scale-105 duration-100 cursor-pointer">
+            Learn More
+          </button>
+        </div>
+      </div>
+      <div className="w-[50%] flex justify-center">
+        <img src={BgHome} alt="" className="w-[500px] rounded-2xl shadow-2xl" />
+      </div>
+    </div>
+  )
+}
+
+export default Home
