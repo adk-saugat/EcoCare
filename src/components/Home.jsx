@@ -1,7 +1,7 @@
 import BgHome from "../assets/bghome.jpg"
 const Home = () => {
   return (
-    <div className="flex mt-10 mb-24">
+    <div className="flex items-center mt-10 mb-24">
       <div className="w-[50%] pl-10 flex justify-end flex-col">
         <div>
           <h1 className="text-7xl font-semibold text-darkgreen">
