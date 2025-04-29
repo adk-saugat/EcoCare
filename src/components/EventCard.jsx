@@ -11,7 +11,7 @@ const EventCard = ({ event }) => {
           <p className="text-sm text-gray-500">{description}</p>
         </div>
         <div className="text-right h-[20%]">
-          <button className="bg-lightgreen text-white px-4 py-1 rounded-2xl cursor-pointer">
+          <button className="bg-lightgreen text-white px-4 py-1 rounded-2xl cursor-pointer hover:scale-105 duration-100 hover:shadow-xl">
             Join
           </button>
         </div>

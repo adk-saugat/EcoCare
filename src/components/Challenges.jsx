@@ -1,6 +1,6 @@
 const Challenges = () => {
   return (
-    <div className="my-2">
+    <div className="py-2" id="challenges">
       <h1 className="text-4xl w-full mb-12 text-center text-darkgreen font-semibold">
         Challenges
       </h1>
@@ -12,7 +12,9 @@ const Challenges = () => {
           <p className="text-center">0/5 Completed</p>
         </div>
         <div>
-          <h2 className="text-center text-3xl font-semibold mb-4">Checklist</h2>
+          <h2 className="text-center text-3xl font-semibold mb-4 text-darkgreen">
+            Checklist
+          </h2>
           <div className="flex flex-col gap-4">
             <div className="flex items-center gap-2 bg-">
               <input type="checkbox" className="w-5 h-5" />

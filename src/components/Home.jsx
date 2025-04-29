@@ -15,12 +15,18 @@ const Home = () => {
         </div>
 
         <div className="mt-10 ml-10 flex gap-8">
-          <button className="bg-darkgreen text-white py-3 rounded-2xl px-5 font-semibold shadow-lg hover:scale-105 duration-100 cursor-pointer">
+          <a
+            href="#events"
+            className="bg-darkgreen text-white py-3 rounded-2xl px-5 font-semibold shadow-lg hover:scale-105 duration-100 cursor-pointer"
+          >
             Join Cleanup
-          </button>
-          <button className="bg-lightgreen text-white py-3 rounded-2xl px-5 font-semibold shadow-lg hover:scale-105 duration-100 cursor-pointer">
+          </a>
+          <a
+            href="#learn"
+            className="bg-lightgreen text-white py-3 rounded-2xl px-5 font-semibold shadow-lg hover:scale-105 duration-100 cursor-pointer"
+          >
             Learn More
-          </button>
+          </a>
         </div>
       </div>
       <div className="w-[50%] flex justify-center">

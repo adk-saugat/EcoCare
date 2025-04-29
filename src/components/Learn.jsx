@@ -1,6 +1,6 @@
 const Learn = () => {
   return (
-    <div className="p-8 my-10 flex flex-col justify-center">
+    <div className="p-8 my-10 flex flex-col justify-center" id="learn">
       <h1 className="text-4xl w-full mb-12 font-semibold text-darkgreen">
         Learn More About The Environment
       </h1>
