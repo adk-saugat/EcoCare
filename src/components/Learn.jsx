@@ -4,7 +4,7 @@ const Learn = () => {
       <h1 className="text-4xl w-full mb-12 font-semibold text-darkgreen">
         Learn More About The Environment
       </h1>
-      <section className="grid grid-cols-4 gap-6">
+      <section className="grid md:grid-cols-4 gap-6">
         <div className="flex flex-col text-gray-700 shadow-2xl">
           <section className="bg-darkgreen text-white p-4 rounded-2xl h-[350px] flex flex-col">
             <div className="h-[80%] overflow-hidden">

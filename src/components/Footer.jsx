@@ -5,10 +5,18 @@ const Footer = () => {
         EcoCare
       </h1>
       <nav className="flex gap-8 text-center mt-4 text-white">
-        <p className="cursor-pointer">Events</p>
-        <p className="cursor-pointer">Challenges</p>
-        <p className="cursor-pointer">Learn</p>
-        <p className="cursor-pointer">Get Involved</p>
+        <a href="#events" className="cursor-pointer">
+          Events
+        </a>
+        <a href="#challenges" className="cursor-pointer">
+          Challenges
+        </a>
+        <a href="#learn" className="cursor-pointer">
+          Learn
+        </a>
+        <a href="#getInvolved" className="cursor-pointer">
+          Get Involved
+        </a>
       </nav>
       <span className="text-white mt-4 text-sm">
         &copy;copyrights 2025, Created By Saugat Adhikari.

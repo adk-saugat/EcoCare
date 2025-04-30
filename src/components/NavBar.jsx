@@ -1,13 +1,13 @@
 const NavBar = () => {
   return (
-    <div className="h-20 flex items-center px-6">
+    <div className="h-20 flex items-center px-6 justify-between">
       <h1
         className="text-3xl font-light w-[20%] cursor-pointer"
         onClick={() => navigate("/")}
       >
         Eco<span className="text-green-600 font-semibold text-3xl">Care</span>
       </h1>
-      <nav className="flex gap-8 w-[70%] items-baseline">
+      <nav className="gap-8 w-[70%] items-baseline md:flex hidden">
         <a
           href="#events"
           className="cursor-pointer hover:scale-105 hover:font-semibold hover:text-green-600 decoration-2 duration-100 hover:underline underline-offset-8"

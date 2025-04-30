@@ -12,11 +12,10 @@ const LandingPage = () => {
       <NavBar />
       <Home />
       <Events />
-      <div className="grid grid-cols-2">
+      <div className="grid grid-col-1 gap-10 md:gap-0 md:grid-cols-2">
         <Challenges />
         <GetInvolved />
       </div>
-
       <Learn />
       <Footer />
     </>
