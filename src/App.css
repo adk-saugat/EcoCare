@@ -7,9 +7,13 @@
   --color-lightblue: #d3ede8;
   --color-bgwhite: #f9f9fa;
 }
-
-html {
+html,
+body {
+  margin: 0;
+  padding: 0;
   scroll-behavior: smooth;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 * {

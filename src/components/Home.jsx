@@ -4,7 +4,7 @@ const Home = () => {
     <div className="md:flex items-center mt-10 mb-24">
       <div className="md:w-[50%] px-4 md:pl-10 flex justify-end flex-col">
         <div>
-          <h1 className="text-7xl font-semibold text-darkgreen">
+          <h1 className="text-6xl font-semibold text-darkgreen">
             Cleaner Communities Start With You!
           </h1>
           <p className="mt-4 text-gray-600 ">
@@ -14,7 +14,7 @@ const Home = () => {
           </p>
         </div>
 
-        <div className="m-10 flex gap-8">
+        <div className="p-10 flex gap-8 w-full">
           <a
             href="#events"
             className="bg-darkgreen text-white py-3 rounded-2xl px-5 font-semibold shadow-lg hover:scale-105 duration-100 cursor-pointer"
@@ -29,7 +29,7 @@ const Home = () => {
           </a>
         </div>
       </div>
-      <div className="md:w-[50%] flex justify-center">
+      <div className="md:w-[50%] flex justify-center p-4 md:p-0">
         <img
           src={BgHome}
           alt=""

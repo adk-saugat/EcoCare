@@ -41,13 +41,13 @@ const Events = () => {
   ]
   return (
     <div
-      className="bg-darkgreen text-bgwhite p-8 pb-12 my-20 flex flex-col justify-center"
+      className="bg-darkgreen text-bgwhite p-8 pb-12 my-20 flex flex-col justify-center w-full"
       id="events"
     >
       <h1 className="text-4xl w-full mb-12 text-center font-semibold">
         Find a Cleanup
       </h1>
-      <section className="grid  grid-cols-1 md:grid-cols-4 gap-6">
+      <section className="grid grid-cols-1 md:grid-cols-4 gap-6">
         {eventsData.map((event) => (
           <EventCard key={event._id} event={event} />
         ))}

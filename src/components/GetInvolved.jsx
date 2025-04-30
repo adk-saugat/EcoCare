@@ -1,6 +1,6 @@
 const GetInvolved = () => {
   return (
-    <div className="my-2" id="getInvolved">
+    <div className="my-2 w-screen md:w-full" id="getInvolved">
       <h1 className="text-4xl w-full mb-4 text-center text-darkgreen font-semibold">
         Get Involved
       </h1>

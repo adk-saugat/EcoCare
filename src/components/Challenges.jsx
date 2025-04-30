@@ -13,7 +13,7 @@ const Challenges = () => {
   }
 
   return (
-    <div className="py-2" id="challenges">
+    <div className="w-screen py-2 md:w-full" id="challenges">
       <h1 className="text-4xl w-full mb-12 text-center text-darkgreen font-semibold">
         Challenges
       </h1>

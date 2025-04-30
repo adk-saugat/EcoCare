@@ -2,7 +2,7 @@ const NavBar = () => {
   return (
     <div className="h-20 flex items-center px-6 justify-between">
       <h1
-        className="text-3xl font-light w-[20%] cursor-pointer"
+        className="text-3xl font-light md:w-[20%] cursor-pointer"
         onClick={() => navigate("/")}
       >
         Eco<span className="text-green-600 font-semibold text-3xl">Care</span>
@@ -34,7 +34,7 @@ const NavBar = () => {
           Get Involved
         </a>
       </nav>
-      <div className="w-[10%]">
+      <div className="md:w-[10%]">
         <button className="bg-darkgreen text-white py-1.5 rounded-2xl px-6 font-semibold shadow-lg hover:scale-105 duration-100 cursor-pointer">
           Login
         </button>
